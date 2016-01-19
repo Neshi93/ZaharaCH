@@ -339,10 +339,10 @@ div#footermap-col-main-menu {
 }
 
 .homeGalleryViewTitel{
-    max-width: 1000px;
     text-align: center;
 	color: #0C85BF;
 	font-size:35px;
+	margin-bottom: 100px;
 }
 
 
@@ -375,7 +375,7 @@ div#footermap-col-main-menu {
 
 .panel-pane.pane-block.pane-views-home-galleryview-block {
 	background-color: #f3f4f5;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 200px;
 }
 
