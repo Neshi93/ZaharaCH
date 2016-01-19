@@ -157,13 +157,19 @@ form#webform-client-form-11 {
 
 /*------------Preisliste-----------*/
 
-.views-field.views-field-field-buchen a {
-    color: white;
+span.views-label.views-label-field-datum {
+    color: black;
     font-weight: bold;
 }
 
+
+.views-field.views-field-field-datum {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
 .view.view-preisliste.view-id-preisliste.view-display-id-block.preis .row {
-    width: 630px;
+    width: 720px;
 }
 
 .view.view-preisliste.view-id-preisliste.view-display-id-block.preis .col.col-lg-3 {
@@ -173,12 +179,12 @@ form#webform-client-form-11 {
     -webkit-box-shadow: 2px 2px 5px 5x #40210A;
     -moz-box-shadow: 2px 2px 5px 5px #40210A;
     padding: 10px;
-	height: 260px;
-    width: 157px;
+	height: 285px;
+    width: 180px;
 }
 
 .views-field.views-field-field-vermietungstag {
-	font-size: 30px;
+	font-size: 26px;
     text-align: center;
     border-bottom: 2px solid black;
     padding-bottom: 3px;
@@ -194,21 +200,7 @@ form#webform-client-form-11 {
 	padding-bottom: 50px;
 }
 
-.views-field.views-field-field-buchen {
-    text-align: center;
-    margin-top: 6px;
-    padding: 7px;
-    background: #083F82;
-    color: #FFF;
-	}
 
-.views-field.views-field-field-buchen :hover {
-   text-align: center;
-
-    background: #083F82;
-    color: #FFF;
-	text-decoration: none;
-}
 
 .panel-pane.pane-block.pane-views-preisliste-block {
      background: url("../images/background/bg21.jpg") no-repeat center center fixed;
