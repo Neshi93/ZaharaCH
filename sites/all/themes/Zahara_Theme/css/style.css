@@ -374,7 +374,7 @@ div#footermap-col-main-menu {
 
 
 .panel-pane.pane-block.pane-views-home-galleryview-block {
-	background-color:rgba(240, 219, 170, 0.43);
+	background-color: #f3f4f5;
     padding-top: 150px;
     padding-bottom: 200px;
 }
@@ -403,15 +403,19 @@ div#footermap-col-main-menu {
 
 
 .panel-pane.pane-block.pane-views-ausstattung-block {
-	background: url("../images/background/bg15.jpg") 0% 60% fixed no-repeat;
-    padding-top: 100px;
+	background: url("../images/background/ausstattungbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
     padding-bottom: 150px;
 }
 .panel-pane.pane-block.pane-views-ausstattung-block h2 {
 	 margin-bottom: 100px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: #6F0C05;
 }
 .views-field.views-field-field-ausstattung-icon {
     width: 32px;
@@ -425,8 +429,9 @@ div#footermap-col-main-menu {
     float: left;
 	margin-bottom: 30px;
 	margin-left: 20px;
-	color:white;
+	color:black;
 	font-weight: bold;
+	font-size: 15px;
 }
 
 
@@ -478,7 +483,13 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .panel-pane.pane-block.pane-views-gastgeber-block {
     padding-top: 100px;
     padding-bottom: 100px;
-	background: rgba(191, 162, 92, 0.54);
+	/*background: rgba(191, 162, 92, 0.54);
+    background-size: cover;*/
+	
+	background: url("../images/background/gastgeberbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -510,7 +521,7 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .panel-pane.pane-block.pane-views-ferienhaus-block {
         padding-top: 80px;
 		padding-bottom: 140px;
-		background-color:#F0F5F6;
+		background-color: rgba(243, 244, 245, 0.39);
 }
 .panel-pane.pane-block.pane-views-ferienhaus-block h2{
     margin-bottom: 70px;
