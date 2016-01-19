@@ -207,6 +207,12 @@ div#footermap-col-main-menu {
     margin: 0 auto;
 }
 
+.view.view-gallery.view-id-gallery.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+	padding-bottom: 120px;
+}
+
 .view.view-News.view-id-News.view-display-id-block{
     max-width: 1000px;
     margin: 0 auto;
@@ -590,4 +596,24 @@ td.views-field.views-field-field-profilbild.views-align-center {
     margin: 0 auto;
     max-width: 1000px;
 }
+/*----------------------------------------*/
+
+
+
+
+/*-----------Gallery----------------*/
+
+
+.panel-pane.pane-block.pane-views-gallery-block h2 {
+	padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #FFFFFF;
+    background: rgba(40, 77, 160, 0.96);
+}
+
 /*----------------------------------------*/

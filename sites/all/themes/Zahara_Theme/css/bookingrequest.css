@@ -129,7 +129,9 @@ form#webform-client-form-11 {
 	width: 300px;
 }
 /*------------------------------------------*/
-
+.view.view-Reservationskalender.view-id-Reservationskalender.view-display-id-block {
+    margin-bottom: 70px;
+}
 
 .panel-pane.pane-block.pane-views-buchungsanfrage-block h2 {
     padding-top: 20px;
@@ -138,10 +140,15 @@ form#webform-client-form-11 {
     font-size: 35px;
 }
 .panel-pane.pane-block.pane-views-reservationskalender-block h2{
-  padding-top: 20px;
-    text-align: center;
+  	padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 80px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #FFFFFF;
+    background: rgba(40, 77, 160, 0.96);
 }
 
 .panel-pane.pane-block.pane-views-link-block h2 {
@@ -203,13 +210,17 @@ span.views-label.views-label-field-datum {
 
 
 .panel-pane.pane-block.pane-views-preisliste-block {
-     background: url("../images/background/bg21.jpg") no-repeat center center fixed;
+
+    background: url("../images/background/raster.png");
+    padding-top: 20px;
+    padding-bottom: 100px;
+     /*background: url("../images/background/bg21.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-top: 20px;
-	padding-bottom: 100px;
+	padding-bottom: 100px;*/
 }
 
 .panel-pane.pane-block.pane-views-preisliste-block  h2{
