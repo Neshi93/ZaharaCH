@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>tabIndexFollowsLogicalOrder</title>
+</head>
+<body>
+    <div class="quail-test" data-expected="input[tabindex='1']:ignore|input[tabindex='4']:fail" data-accessibility-test="tabIndexFollowsLogicalOrder">
+
+        <form action="http://www.example.com/servlet1" method="post">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" value="" tabindex="1"/>
+                <br/>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" value="" tabindex="4" class="quail-failed-element"/>
+                <br/>
+                <input type="submit" value="submit color" class="quail-failed-element"/>
+            </p>
+        </form>
+    </div>
+    <div class="quail-test" data-expected="input[tabindex='1']:ignore|input[tabindex='2']:pass" data-accessibility-test="tabIndexFollowsLogicalOrder">
+
+        <form action="http://www.example.com/servlet1" method="post">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" value="" tabindex="1"/>
+                <br/>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" value="" tabindex="2"/>
+                <br/>
+                <input type="submit" value="submit color" />
+            </p>
+        </form>
+    </div>
+
+    <script src="../quail-testrunner.js"></script>
+</body>
+</html>

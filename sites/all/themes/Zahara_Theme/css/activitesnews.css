@@ -1,0 +1,91 @@
+.view.view-aktivitaeten.view-id-aktivitaeten.view-display-id-page {
+    max-width: 1000px;
+    margin: 0 auto;
+	margin-top: 40px;
+}
+
+.views-field.views-field-field-aktivitaetenimage {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+	margin-top: 36px;
+}
+
+.aktivitaetenBody{
+	padding-top: 20px;
+    padding-left: 170px;
+	padding-right: 20px;
+    text-align: justify;
+	margin-left: 100px;
+}
+.newsBody{
+    padding-top: 55px;
+    padding-left: 170px;
+    text-align: justify;
+}
+
+.views-field.views-field-field-news-image {
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.aktivitaetenTitel,
+.newsTitel{
+	max-width: 678px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.aktivitätenLink,
+.newsLink {
+    margin-bottom: 50px;
+	
+}
+
+.newsLink {
+    padding-left: 170px;
+    margin-top: 26px;
+}
+	
+}
+
+td.views-field.views-field-field-news-image {
+    width: 180px;
+}
+
+.view.view-News.view-id-News.view-display-id-block Img {
+	margin-top: 50px;
+    border: solid 3px #FFF;
+    -moz-box-shadow: 2px 2px 6px #020202;
+    -webkit-box-shadow: 2px 2px 6px #020202;
+    box-shadow: 2px 2px 6px #020202;
+}
+
+
+
+td.views-field.views-field-field-news-url {
+    padding-top: 100px;
+}
+
+.panel-pane.pane-block.pane-views-aktivit-ten-block h2 {
+
+   padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #0C85BF;
+}
+.panel-pane.pane-block.pane-views-news-block h2 {
+padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #0C85BF;
+}

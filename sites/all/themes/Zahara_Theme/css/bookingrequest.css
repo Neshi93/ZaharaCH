@@ -1,0 +1,231 @@
+
+.panel-display.panel-2col-bricks.clearfix {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.cal-buttons {
+    text-align: center;
+}
+
+
+
+.cal-forward, .cal-backward {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	margin-left: 5px;
+}
+
+.cal caption {
+    text-align: center;
+    color: #337AB7;
+    font-size: 12px;
+}
+
+/*----------------Formular-------------------*/
+
+.form-item.webform-component.webform-component-textfield.webform-component--vorname.form-group,
+.form-item.webform-component.webform-component-email.webform-component--e-mail.form-group,
+.form-item.webform-component.webform-component-textfield.webform-component--nachname.form-group {
+	margin:0 auto;
+    width: 280px;
+
+}
+
+.form-item.webform-component.webform-component-select.webform-component--erwachsene.form-group,
+.form-item.webform-component.webform-component-select.webform-component--kinder.form-group {
+    margin: 0 auto;
+    width: 280px;
+    margin-top: 30px;
+}
+
+select#edit-submitted-ankunftsdatum-month,
+select#edit-submitted-ankunftsdatum-day,
+select#edit-submitted-ankunftsdatum-year,
+select#edit-submitted-abreisedatum-month,
+select#edit-submitted-abreisedatum-day,
+select#edit-submitted-abreisedatum-year {
+    width: 100px;
+}
+
+select#edit-submitted-ankunftsdatum-month,
+select#edit-submitted-abreisedatum-month {
+    float: left;
+}
+
+select#edit-submitted-ankunftsdatum-day,
+select#edit-submitted-abreisedatum-day {
+    float: left;
+}
+
+select#edit-submitted-ankunftsdatum-year,
+select#edit-submitted-abreisedatum-year {
+    float: left;
+    margin-right: 20px;
+}
+
+.form-item.webform-component.webform-component-date.webform-component--ankunftsdatum.form-group,
+.form-item.webform-component.webform-component-date.webform-component--abreisedatum.form-group  {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 350px;
+    margin: 30px auto;
+}
+
+
+.view.view-Buchungsanfrage.view-id-Buchungsanfrage.view-display-id-block {
+    max-width: 371px;
+	margin: 0 auto;
+	padding-top: 53px;
+}
+
+.table-responsive{
+overflow-x: hidden !important;
+}
+
+button.webform-submit.button-primary.btn.btn-primary.form-submit {
+    width: 360px;
+    margin-top: 20px;
+}
+
+.form-actions {
+    margin: 0 auto;
+    width: 370px;
+}
+
+
+#bookingrequest {
+
+    margin-left: 53px;
+    font-size: 35px;
+    text-decoration: none;
+ 
+}
+
+form#webform-client-form-11 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+	width: 300px;
+}
+/*------------------------------------------*/
+
+
+.panel-pane.pane-block.pane-views-buchungsanfrage-block h2 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.panel-pane.pane-block.pane-views-reservationskalender-block h2{
+  padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.panel-pane.pane-block.pane-views-link-block h2 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+/*.panel-pane.pane-block.pane-views-reservationskalender-block  table.table.table-hover.table-striped {
+    width: 280px;
+}*/
+
+/*------------Preisliste-----------*/
+
+.views-field.views-field-field-buchen a {
+    color: white;
+    font-weight: bold;
+}
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block.preis .row {
+    width: 630px;
+}
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block.preis .col.col-lg-3 {
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: 0px 0px 13px 3px #40210A;
+    -webkit-box-shadow: 2px 2px 5px 5x #40210A;
+    -moz-box-shadow: 2px 2px 5px 5px #40210A;
+    padding: 10px;
+	height: 260px;
+    width: 157px;
+}
+
+.views-field.views-field-field-vermietungstag {
+	font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
+
+
+.views-field.views-field-field-preis {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 39px;
+    color: rgb(255, 167, 0);
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+.views-field.views-field-field-buchen {
+    text-align: center;
+    margin-top: 6px;
+    padding: 7px;
+    background: #083F82;
+    color: #FFF;
+	}
+
+.views-field.views-field-field-buchen :hover {
+   text-align: center;
+
+    background: #083F82;
+    color: #FFF;
+	text-decoration: none;
+}
+
+.panel-pane.pane-block.pane-views-preisliste-block {
+     background: url("../images/background/bg21.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.panel-pane.pane-block.pane-views-preisliste-block  h2{
+	text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+
+/*------------------------------------------*/

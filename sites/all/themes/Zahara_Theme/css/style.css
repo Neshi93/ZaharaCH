@@ -1,0 +1,593 @@
+
+/*-------------Navbar-------------------*/
+
+.navbar-collapse.collapse {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.navbar-collapse.collapse {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+header#navbar {
+    margin: 0 auto;
+    max-width: 1200px;
+	z-index: 100;
+	}
+
+	a.logo.navbar-btn.pull-left {
+    margin-right: 20px;
+}
+	
+section#block-locale-language h2 {
+    visibility: hidden;
+	
+}
+
+section#block-locale-language{
+margin-left:-20px;
+}
+
+
+ul.language-switcher-locale-url {
+   list-style: none;
+    margin-top: -45px;
+}
+
+.switcher {
+    float: left;
+}
+
+li.en,
+li.de,
+li.es
+ {
+    float: left;
+    margin-right: 15px;
+}
+
+
+li.es img {
+    width: 32px;
+    height: 19px;
+}
+	
+/*----------------------------------------*/
+
+
+
+
+/*-------------Header-------------------*/
+
+.view.view-begr-ssungstext.view-id-begr_ssungstext.view-display-id-block {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+div#headerWrapper {
+    background-color: #F8F8F8;
+    height: 72px;
+	    z-index: 100;
+}
+
+
+div#headerCarousel {
+	/*background-color: #F7EFCC;*/
+    padding-bottom: 40px;
+    padding-top: 40px;
+	margin-bottom: 40px;
+	height: 960px;
+	background: url("../images/background/bg8.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+
+
+
+.BegruessungstextBody{
+
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+        color: #000000;
+	font-size: 18px;
+}
+
+.BegruessungstextTitel{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 52px;
+    margin-top: 100px;
+	color: rgb(15, 41, 177);
+}
+
+
+.bookNow {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+	}
+	
+.bookNow a {
+     padding: 13px 40px;
+    background: #083F82;
+    color: #FFF;
+}
+
+.bookNow a:hover {
+    padding: 13px 40px;
+    background: #A51818;
+    color: #FFF;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+
+
+/*----------------------------------------*/
+
+
+
+/*-----------------Footer---------------*/
+
+
+#footer{
+	margin: 0 auto;
+    height: 290px;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+}
+
+footer.footer.container-fluid {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+section#block-addtoany-addtoany-button{
+    margin-bottom: 20px;
+	float: left;
+    margin-left: 20px;
+}
+
+
+
+div#lmrFooterWraper {
+    max-width: 1000px;
+    margin: 0 auto;
+	padding-top: 40px;
+}
+
+div#leftFooter {
+
+	float: left;
+	    width: 330px;
+}
+
+div#middleFooter {
+
+	float: left;
+	    width: 330px;
+}
+div#rightFooter {
+  
+	float: left;
+	    width: 330px;
+}
+
+div#contactinfo-franoise-weisswange {
+    color: white;
+}
+
+div#footermap-col-main-menu {
+    margin-left: -20px;
+	text-align: left;
+}
+
+
+/*------------------------------------*/
+
+.panel-pane.pane-block.pane-views-portfolio-ferienhaus-block,
+.view.view-home-galleryview.view-id-home_galleryview.view-display-id-block,
+.view.view-Ausstattung.view-id-Ausstattung.view-display-id-block,
+.view.view-location-dienstleistungen.view-id-location_dienstleistungen.view-display-id-block,
+.views-field.views-field-field-umgebung-bild {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.view.view-News.view-id-News.view-display-id-block{
+    max-width: 1000px;
+    margin: 0 auto;
+	padding-right: 20px;
+	padding-bottom: 100px;
+}
+
+.view.view-aktivit-ten.view-id-aktivit_ten.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.view.view-location-map.view-id-location_map.view-display-id-block {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block {
+    padding-top: 40px;
+    padding-bottom: 75px;
+    text-align: -webkit-center;
+}
+
+/*.pane-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}*/
+
+
+
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*-------------Home-Views----------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+
+
+
+/*-----------Home-Portfolio----------------*/
+
+.view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block,
+.view.view-portfolio-.view-id-portfolio_.view-display-id-block,
+.view.view-portfolio-location.view-id-portfolio_location.view-display-id-block{
+    width: 250px;
+	float:left;    
+	margin-right: 35px;
+	margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+	
+.view.view-portfolio-gastgeber.view-id-portfolio_gastgeber.view-display-id-block {
+    width: 250px;
+    float: left;
+	margin-top: 70px;
+    margin-bottom: 100px;
+  
+}
+
+
+.view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block img {
+    margin-bottom: 15px;
+}
+.view.view-portfolio-.view-id-portfolio_.view-display-id-block img {
+    margin-bottom: 15px;
+}
+.view.view-portfolio-location.view-id-portfolio_location.view-display-id-block img {
+    margin-bottom: 15px;
+}
+.view.view-portfolio-gastgeber.view-id-portfolio_gastgeber.view-display-id-block img {
+    margin-bottom: 15px;
+}
+
+.view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block a{
+	color: #0C85BF;
+	font-size: 20px;
+}
+.view.view-portfolio-.view-id-portfolio_.view-display-id-block a{
+	color: #0C85BF;
+	font-size: 20px;
+}
+.view.view-portfolio-location.view-id-portfolio_location.view-display-id-block a{
+	color: #0C85BF;
+	font-size: 20px;
+}
+.view.view-portfolio-gastgeber.view-id-portfolio_gastgeber.view-display-id-block a{
+	color: #0C85BF;
+	font-size: 20px;
+}
+
+
+.view.view-portfolio-location.view-id-portfolio_location.view-display-id-block p {
+    margin-top: 20px;
+	text-align: justify;
+}
+
+
+.view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block p {
+    margin-top: 20px;
+	text-align: justify;
+}
+.view.view-portfolio-.view-id-portfolio_.view-display-id-block p {
+    margin-top: 20px;
+	text-align: justify;
+}
+.view.view-portfolio-gastgeber.view-id-portfolio_gastgeber.view-display-id-block p {
+    margin-top: 20px;
+	text-align: justify;
+}
+/*-----------------------------------------*/
+
+
+
+/*-----------Home-GalleryView----------------*/
+
+.homeGalleryViewImage {
+    float: left;
+    margin-right: 100px;
+}
+
+.homeGalleryViewTitel{
+    max-width: 1000px;
+    text-align: center;
+	color: #0C85BF;
+	font-size:30px;
+}
+
+
+.homeGalleryViewBody {
+    max-width: 1000px;
+    text-align: center;
+	margin-top: 30px;
+}
+
+.homeGalleryViewLink {
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 30px;
+	
+}
+
+.homeGalleryViewLink a {
+    padding: 13px 40px;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.homeGalleryViewLink a:hover {
+    padding: 13px 40px;
+    color: #CA0606;
+	text-decoration: none;
+}
+
+
+.panel-pane.pane-block.pane-views-home-galleryview-block {
+	background-color:rgba(240, 219, 170, 0.43);
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.panel-pane.pane-block.pane-views-home-galleryview-block h2 {
+    text-align: center;
+    margin-left: 270px;
+}
+
+
+
+.homeGalleryViewImage img{
+	 box-shadow: 12px 11px 23px #2F2D2D
+
+
+}
+
+
+
+/*----------------------------------------*/
+
+
+
+
+/*-----------Home-Ausstattung----------------*/
+
+
+.panel-pane.pane-block.pane-views-ausstattung-block {
+	background: url("../images/background/bg15.jpg") 0% 60% fixed no-repeat;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.panel-pane.pane-block.pane-views-ausstattung-block h2 {
+	
+	margin-bottom:100px;
+	text-align:center;
+}
+.views-field.views-field-field-ausstattung-icon {
+    width: 32px;
+    float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.AusstattungTitel {
+    float: left;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	color:white;
+	font-weight: bold;
+}
+
+
+/*----------------------------------------*/
+
+
+/*-----------Home-GastegeberView----------------*/
+
+.gastgeberBody {
+    color: black;
+    font-size: 17px;
+    margin-top: 60px;
+    max-width: 700px;
+    text-align: center;
+    float: left;
+    padding-left: 40px;
+	
+}
+
+.gastgeberTitel {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 30px;
+	padding-left: 100px;
+}
+
+.view.view-Gastgeber.view-id-Gastgeber.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+td.views-field.views-field-field-profilbild.views-align-center {
+    font-size: 30px;
+}
+
+.gastgeberImage {
+    width: 200px;
+    float: left;
+}
+
+.gastgeberImage img {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+
+.panel-pane.pane-block.pane-views-gastgeber-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+	background: rgba(191, 162, 92, 0.54);
+    background-size: cover;
+}
+
+/*----------------------------------------*/
+
+
+
+
+/*-----------Home-Map----------------*/
+
+
+.simple-gmap-static-map {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.simple-gmap-static-map img:hover {
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 5px 5px 24px #1D58C3;
+}
+
+.panel-pane.pane-block.pane-views-ferienhaus-block {
+        padding-top: 80px;
+		padding-bottom: 140px;
+		background-color:#F0F5F6;
+}
+.panel-pane.pane-block.pane-views-ferienhaus-block h2{
+    margin-bottom: 70px;
+	text-align:center;
+	    font-size: 35px;
+}
+
+.view.view-Ferienhaus.view-id-Ferienhaus.view-display-id-block p.simple-gmap-address {
+
+    text-align: center;
+    font-size: 17px;
+    color: #D60808;
+    font-weight: bold;
+	 padding-top: 51px;
+}
+
+.mapBody {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.mapLink {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.mapLink a {
+    padding: 13px 40px;
+    background: #337ab7;
+    color: #FFF;
+}
+
+.mapLink a:hover {
+    padding: 13px 40px;
+    background: #113B5F;
+    color: #FFF;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+
+
+/*----------------------------------------*/
+
+
+
+
+
+
+/*-----------Home-BesucherView----------------*/
+
+.panel-pane.pane-block.pane-views-besucher-block h2 {
+	margin-bottom: 60px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.panel-pane.pane-block.pane-views-besucher-block {
+    margin-top: -20px;
+	
+	}
+
+
+.contextual-links-region.panel-pane.pane-block.pane-views-besucher-block,
+.panel-pane.pane-block.pane-views-besucher-block img {
+    float: left;
+    margin: 14px;
+    margin-top: 02;
+    margin-bottom: 20px;
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}
+
+.contextual-links-region.panel-pane.pane-block.pane-views-besucher-block,
+.panel-pane.pane-block.pane-views-besucher-block  img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+.view.view-besucher.view-id-besucher.view-display-id-block {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+/*----------------------------------------*/

@@ -1,0 +1,232 @@
+
+@media (max-width: 2000px){
+	.col-lg-4 {
+		width: 33.33333333%;
+		float:left;
+	    
+	}
+	
+	div#views-bootstrap-grid-1 {
+		margin-left: 20px;
+	}
+	.cal-viewport {
+    width: 1284px !important;
+    margin: 0 auto;
+}
+
+}
+
+@media (max-width: 1333px){
+
+	.cal-viewport {
+    width: 961px !important;
+    margin: 0 auto;
+}
+
+
+}
+
+@media screen and (max-width: 1006px){
+#footer {
+     height: 420px;
+}
+
+div#rightFooter {
+    margin-left: 20px;
+}
+
+
+
+}
+
+@media screen and (max-width: 1000px){
+.view.view-besucher.view-id-besucher.view-display-id-block {
+    margin: 0 auto;
+    max-width: 672px;
+}
+
+	.cal-viewport {
+    width: 640px !important;
+    margin: 0 auto;
+}
+
+}
+@media (max-width: 770px){
+#bookingrequest {
+    margin-left: 23px !important;
+}
+.panel-pane.pane-block.pane-views-buchungsanfrage-block h2 {
+    width: 253px;
+}
+
+.table-responsive {
+    overflow-x: hidden!important;
+    border: 0px solid black!important;
+}
+
+select#edit-submitted-ankunftsdatum-month,
+select#edit-submitted-abreisedatum-month{
+    width: 90px !important;
+}
+
+select#edit-submitted-abreisedatum-day,
+select#edit-submitted-ankunftsdatum-day{
+    width: 76px!important;
+}
+
+
+
+select#edit-submitted-ankunftsdatum-year,
+select#edit-submitted-abreisedatum-year {
+    width: 81px!important;
+	    margin-right: 10px!important;
+}
+
+td.views-field.views-field-webform-form-body {
+    max-width: 300px  !important;
+}
+
+button.webform-submit.button-primary.btn.btn-primary.form-submit {
+    width: 270px !important;
+}
+.table-responsive {
+    width: 300px  !important;
+}
+.panel-2col-bricks .panel-col-last {
+    float: none;
+    width: 50%;
+}
+.panel-col-last.panel-panel {
+    float: none !important;
+
+}
+@media (max-width: 675px){
+
+#footer {
+    height: 550px;
+	}
+
+div#middleFooter {
+margin-left:20px;
+}
+
+}
+
+
+@media (max-width: 670px){
+table.table.table-hover.table-striped {
+    width: 280px;
+}
+
+	.cal-viewport {
+    width: 290px !important;
+    margin: 0 auto;
+}
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block.preis .row {
+    width: 478px !important;
+}
+
+}
+
+@media (max-width: 715px){
+	div#panels-ipe-paneid-3, 
+	div#panels-ipe-paneid-2,
+	div#panels-ipe-paneid-5,
+.view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block,
+.view.view-portfolio-.view-id-portfolio_.view-display-id-block,
+.view.view-portfolio-location.view-id-portfolio_location.view-display-id-block,
+.view.view-portfolio-gastgeber.view-id-portfolio_gastgeber.view-display-id-block
+ 	{
+ 
+    width: 250px;
+	float:none;
+    margin-right: 100px;
+    margin: 0 auto;
+
+}
+
+
+	.homeGalleryViewImage {
+    width: 250px;
+	float:none;
+    margin-right: 100px;
+    margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+}
+
+
+
+@media (max-width: 500px){
+	
+	
+
+	.aktivitaetenBody,
+	.newsBody,
+	.views-field.views-field-field-aktivit-ten-seite {
+		float:left;
+	}
+	
+	.aktivitaetenBody, .newsBody {
+        padding-left: 0px !important;
+		margin-left: 0px!important;
+
+}
+	
+	
+	.aktivitaetenTitel{
+		margin-top: 30px;
+		margin-bottom: -20px;
+	}
+
+	.aktivitätenLink,
+	.newsLink	{
+		margin-bottom: 50px;
+		float: left;
+		padding-left: 0px !important;
+	}
+	
+	.newsTitel {
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+	
+	.views-field.views-field-field-aktivitaetenimage {
+     width: 250px;
+     float: none !important; 
+}
+
+
+}
+
+@media (max-width: 450px){
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block.preis .row {
+    width: 317px !important;
+}
+
+.view.view-preisliste.view-id-preisliste.view-display-id-block.preis .col.col-lg-3 {
+    margin-bottom: 10px;
+}
+}
+
+
+@media (max-width: 380px){
+	.view.view-besucher.view-id-besucher.view-display-id-block img {
+    width: 270px;
+	}
+	div#leftFooter,
+	div#middleFooter,
+	div#rightFooter {
+		width:250px;
+	}
+
+.view.view-Buchungsanfrage.view-id-Buchungsanfrage.view-display-id-block {
+    margin-left: 10px !important;
+}
+}
+
+
