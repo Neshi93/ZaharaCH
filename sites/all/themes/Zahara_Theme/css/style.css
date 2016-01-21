@@ -61,17 +61,29 @@ li.es img {
 
 /*-------------Header-------------------*/
 
+./*navbar-default .navbar-nav > li > a {
+    color: #FDFDFD !important;
+    font-size: 19px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #095CC3 !important;
+}
+*/
 .view.view-begr-ssungstext.view-id-begr_ssungstext.view-display-id-block {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-
+.navbar-default {
+  /*  background-color: rgba(16, 48, 119, 0.98) !important;*/
+}
 
 div#headerWrapper {
-    background-color: #F8F8F8;
+   /* background-color: #0F3076;*/
+   background-color:#F8F8F8;
     height: 72px;
-	    z-index: 100;
+    z-index: 100;
 }
 
 
@@ -102,13 +114,19 @@ div#headerCarousel {
 }
 
 .BegruessungstextTitel{
-    max-width: 1000px;
+max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 52px;
     margin-top: 100px;
-	color: rgb(15, 41, 177);
+    font-size: 60px;
+    line-height: 60px;
+    color: #7D3703;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
@@ -448,6 +466,7 @@ div#footermap-col-main-menu {
     text-align: center;
     float: left;
     padding-left: 40px;
+	color: wheat;
 	
 }
 
@@ -458,6 +477,7 @@ div#footermap-col-main-menu {
     margin-bottom: 35px;
     font-size: 35px;
 	padding-left: 100px;
+	color: white;
 }
 
 .view.view-Gastgeber.view-id-Gastgeber.view-display-id-block {
@@ -521,7 +541,7 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .panel-pane.pane-block.pane-views-ferienhaus-block {
         padding-top: 80px;
 		padding-bottom: 140px;
-		background-color: rgba(243, 244, 245, 0.39);
+		background-color: rgb(243, 244, 245);
 }
 .panel-pane.pane-block.pane-views-ferienhaus-block h2{
     margin-bottom: 70px;
@@ -588,9 +608,8 @@ td.views-field.views-field-field-profilbild.views-align-center {
 }
 
 .panel-pane.pane-block.pane-views-besucher-block {
-    margin-top: -20px;
-	
-	}
+    padding-bottom: 100px;
+}
 
 
 .contextual-links-region.panel-pane.pane-block.pane-views-besucher-block,
@@ -623,15 +642,19 @@ td.views-field.views-field-field-profilbild.views-align-center {
 
 
 .panel-pane.pane-block.pane-views-gallery-block h2 {
-	padding-top: 20px;
+	  padding-top: 80px;
     margin-top: 0px;
     margin-bottom: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: rgba(40, 77, 160, 0.96);
+    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*----------------------------------------*/

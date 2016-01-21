@@ -69,24 +69,32 @@ td.views-field.views-field-field-news-url {
 }
 
 .panel-pane.pane-block.pane-views-aktivit-ten-block h2 {
-	padding-top: 20px;
+   padding-top: 80px;
     margin-top: 0px;
     margin-bottom: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: rgba(40, 77, 160, 0.96);
+    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .panel-pane.pane-block.pane-views-news-block h2 {
-	padding-top: 20px;
+    padding-top: 80px;
     margin-top: 0px;
     margin-bottom: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: rgba(40, 77, 160, 0.96);
+    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

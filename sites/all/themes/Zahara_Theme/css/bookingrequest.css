@@ -9,7 +9,10 @@
     text-align: center;
 }
 
-
+.cal-viewport {
+    width: 1241px;
+    margin: 0 auto;
+}
 
 .cal-forward, .cal-backward {
     color: #fff;
@@ -141,15 +144,19 @@ form#webform-client-form-11 {
     font-size: 35px;
 }
 .panel-pane.pane-block.pane-views-reservationskalender-block h2{
-  	padding-top: 20px;
+  padding-top: 80px;
     margin-top: 0px;
     margin-bottom: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: rgba(40, 77, 160, 0.96);
+    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .panel-pane.pane-block.pane-views-link-block h2 {
