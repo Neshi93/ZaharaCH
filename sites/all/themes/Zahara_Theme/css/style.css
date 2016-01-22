@@ -639,7 +639,11 @@ td.views-field.views-field-field-profilbild.views-align-center {
 
 
 /*-----------Gallery----------------*/
-
+.galleryTitel {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0828A2;
+}
 
 .panel-pane.pane-block.pane-views-gallery-block h2 {
 	  padding-top: 80px;
@@ -658,3 +662,7 @@ td.views-field.views-field-field-profilbild.views-align-center {
 }
 
 /*----------------------------------------*/
+.profile {
+    padding-bottom: 600px;
+    padding-top: 30px;
+}
