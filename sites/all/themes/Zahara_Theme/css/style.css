@@ -1,5 +1,24 @@
 
 /*-------------Navbar-------------------*/
+.navbar-collapse.collapse {
+    background-color: #F8F8F8;
+}
+
+div#NavBarWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 66px;
+    background-color: #F8F8F8;
+}
+
+
+.container-fluid.navbar-fixed-top {
+    max-width: 1200px;
+}
+
 
 .navbar-collapse.collapse {
     padding-top: 10px;
@@ -88,17 +107,47 @@ div#headerWrapper {
 
 
 div#headerCarousel {
-	/*background-color: #F7EFCC;*/
+/*background-color: #F7EFCC;
     padding-bottom: 40px;
     padding-top: 40px;
 	margin-bottom: 40px;
 	height: 960px;
-	background: url("../images/background/bg8.jpg") no-repeat center center fixed;
+	background: url("../images/background/startbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	background-attachment: scroll;*/
 	
+	background-color: #F7EFCC; */
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    height: 960px;
+    background: url("../images/background/startbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-attachment: scroll; */
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+     -webkit-justify-content: center; 
+    -ms-justify-content: center;
+     justify-content: center; 
+     cursor: default; 
+     height: 100vh; 
+     min-height: 35em; 
+     overflow: hidden; 
+     position: relative; 
+     text-align: center; 
 }
 
 
@@ -120,11 +169,10 @@ max-width: 1000px;
     margin-top: 100px;
     font-size: 60px;
     line-height: 60px;
-    color: #7D3703;
+    color: #2A364C;
     font-weight: 700;
     text-transform: uppercase;
     border-bottom: 1px solid white;
-    border-top: 1px solid white;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -135,20 +183,25 @@ max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
+	font-weight: 700;
+    text-transform: uppercase;
 	}
 	
 .bookNow a {
      padding: 13px 40px;
-    background: #083F82;
+    background: #004C73;
     color: #FFF;
 }
 
 .bookNow a:hover {
     padding: 13px 40px;
-    background: #A51818;
+    background: none;
     color: #FFF;
     border-radius: 5px;
 	text-decoration: none;
+	border:2px solid white;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -162,8 +215,8 @@ max-width: 1000px;
 
 #footer{
 	margin: 0 auto;
-    height: 290px;
-    background-color: rgba(0, 0, 0, 0.87);
+    height: 320px;
+    background-color: #4F585D;
     
 }
 
@@ -212,16 +265,25 @@ div#footermap-col-main-menu {
     margin-left: -20px;
 	text-align: left;
 }
-
+div#rightFooter a {
+ color: white;
+}
+div#middleFooter a {
+    color: white;
+}
 
 /*------------------------------------*/
 
 .panel-pane.pane-block.pane-views-portfolio-ferienhaus-block,
 .view.view-home-galleryview.view-id-home_galleryview.view-display-id-block,
-.view.view-Ausstattung.view-id-Ausstattung.view-display-id-block,
 .view.view-location-dienstleistungen.view-id-location_dienstleistungen.view-display-id-block,
 .views-field.views-field-field-umgebung-bild {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block{
+	max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -242,12 +304,12 @@ div#footermap-col-main-menu {
     max-width: 1000px;
     margin: 0 auto;
 	padding-bottom: 120px;
+	padding-top: 30px;
 }
 
 .view.view-location-map.view-id-location_map.view-display-id-block {
     max-width: 2000px;
     margin: 0 auto;
-    padding-right: 20px;
 }
 
 .view.view-preisliste.view-id-preisliste.view-display-id-block {
@@ -256,13 +318,25 @@ div#footermap-col-main-menu {
     text-align: -webkit-center;
 }
 
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*.pane-content {
     max-width: 1200px;
     margin: 0 auto;
 }*/
 
-
-
+.view.view-begr-ssungstext.view-id-begr_ssungstext.view-display-id-block .row ,
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block .row ,
+.view.view-home-galleryview.view-id-home_galleryview.view-display-id-block .row ,
+.view.view-Ausstattung.view-id-Ausstattung.view-display-id-block .row ,
+.view.view-Ferienhaus.view-id-Ferienhaus.view-display-id-block .row ,
+.view.view-Gastgeber.view-id-Gastgeber.view-display-id-block .row ,
+.view.view-Gastgeber.view-id-Gastgeber.view-display-id-block .row {
+    margin-right: 0px;
+}
 
 /*---------------------------------------*/
 /*---------------------------------------*/
@@ -274,6 +348,63 @@ div#footermap-col-main-menu {
 
 
 /*-----------Home-Portfolio----------------*/
+
+.panel-pane.pane-block.pane-views-home-portfolio-block {
+   margin-top: -40px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background-color: rgba(231, 233, 236, 0.19);
+}
+
+
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.portfolioTitel {
+	margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 60px;
+    color: #0050A5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.portfolioBody {
+    margin-bottom: 20px;
+    text-align: justify;
+	font-size: 17px;
+}
+
+
+.portfolioAnchor {
+    text-align: center;
+    margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.portfolioAnchor a {
+   padding: 4px 25px;
+    font-weight: bold;
+    color: #004C73;
+    border: 2px solid #004c73;
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolioAnchor  a:hover {
+    padding: 4px 25px;
+	background-color:#004C73;
+	border: 2px solid #004C73;
+    color: white;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
 
 .view.view-portfolio-ferienhaus.view-id-portfolio_ferienhaus.view-display-id-block,
 .view.view-portfolio-.view-id-portfolio_.view-display-id-block,
@@ -358,9 +489,11 @@ div#footermap-col-main-menu {
 
 .homeGalleryViewTitel{
     text-align: center;
-	color: #0C85BF;
-	font-size:35px;
-	margin-bottom: 100px;
+    color: #004C73;
+    font-size: 35px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -368,6 +501,9 @@ div#footermap-col-main-menu {
     max-width: 1000px;
     text-align: center;
 	margin-top: 28px;
+    font-size: 17px;
+	margin-left: 450px;
+   
 }
 
 .homeGalleryViewLink {
@@ -381,18 +517,23 @@ div#footermap-col-main-menu {
     padding: 13px 40px;
     color: #000;
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid #004C73;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 
 .homeGalleryViewLink a:hover {
     padding: 13px 40px;
-    color: #CA0606;
+    color: white;
 	text-decoration: none;
+	background-color:#004C73;
+	border: 2px solid white;
+	border-radius: 5px;
 }
 
 
 .panel-pane.pane-block.pane-views-home-galleryview-block {
-	background-color: #f3f4f5;
+	background-color: #F9EDCE;
     padding-top: 80px;
     padding-bottom: 200px;
 }
@@ -420,20 +561,23 @@ div#footermap-col-main-menu {
 /*-----------Home-Ausstattung----------------*/
 
 
-.panel-pane.pane-block.pane-views-ausstattung-block {
+.panel-pane.pane-block.pane-views-home-ausstattung-block {
 	background: url("../images/background/ausstattungbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 400px;
+	background-attachment: scroll;
 }
-.panel-pane.pane-block.pane-views-ausstattung-block h2 {
+.panel-pane.pane-block.pane-views-home-ausstattung-block h2 {
 	 margin-bottom: 100px;
     text-align: center;
     font-size: 35px;
-    color: #6F0C05;
+    color: white;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 .views-field.views-field-field-ausstattung-icon {
     width: 32px;
@@ -444,14 +588,66 @@ div#footermap-col-main-menu {
 }
 
 .AusstattungTitel {
-    float: left;
-	margin-bottom: 30px;
-	margin-left: 20px;
-	color:black;
-	font-weight: bold;
-	font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
 }
 
+.Ausstattungsbeschreibung {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #E8AF05;
+}
+
+
+.views-field.views-field-field-umgebung-icon {
+    width: 32px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 {
+	max-width: 600px;
+    float: left;
+}
+
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 .row {
+    max-width: 600px;
+	margin: 0 auto;
+	padding-right: 0px;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 .col.col-lg-6 {
+    width: 275px;
+    float: left;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-2 .col.col-lg-6 {
+    width: 275px;
+	float: left;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-attachment_1 {
+    max-width: 600px;
+    margin-left: 15px;
+    float: left;
+    margin-top: -93px;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block h3 {
+    width: 550px;
+    text-align: center;
+    padding-bottom: 34px;
+	color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 /*----------------------------------------*/
 
@@ -463,7 +659,7 @@ div#footermap-col-main-menu {
     font-size: 17px;
     margin-top: 60px;
     max-width: 700px;
-    text-align: center;
+    text-align: justify;
     float: left;
     padding-left: 40px;
 	color: wheat;
@@ -478,11 +674,15 @@ div#footermap-col-main-menu {
     font-size: 35px;
 	padding-left: 100px;
 	color: white;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 
 .view.view-Gastgeber.view-id-Gastgeber.view-display-id-block {
     max-width: 1000px;
     margin: 0 auto;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 
 td.views-field.views-field-field-profilbild.views-align-center {
@@ -511,6 +711,7 @@ td.views-field.views-field-field-profilbild.views-align-center {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	background-attachment: scroll;
 }
 
 /*----------------------------------------*/
@@ -524,6 +725,7 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .simple-gmap-static-map {
     max-width: 650px;
     margin: 0 auto;
+	padding-left: 15px;
 }
 .simple-gmap-static-map img{
  left:0;
@@ -541,12 +743,14 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .panel-pane.pane-block.pane-views-ferienhaus-block {
         padding-top: 80px;
 		padding-bottom: 140px;
-		background-color: rgb(243, 244, 245);
+		background-color: rgba(228, 226, 221, 0.69);
 }
 .panel-pane.pane-block.pane-views-ferienhaus-block h2{
     margin-bottom: 70px;
 	text-align:center;
-	    font-size: 35px;
+	font-size: 35px;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 
 .view.view-Ferienhaus.view-id-Ferienhaus.view-display-id-block p.simple-gmap-address {
@@ -577,14 +781,17 @@ td.views-field.views-field-field-profilbild.views-align-center {
 
 
 .mapLink a {
-    padding: 13px 40px;
-    background: #337ab7;
-    color: #FFF;
+    padding: 9px 24px;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #004C73;
+	font-weight: 700;
+    text-transform: uppercase;
 }
 
 .mapLink a:hover {
-    padding: 13px 40px;
-    background: #113B5F;
+    padding: 9px 24px;
+    background: #004C73;
     color: #FFF;
     border-radius: 5px;
 	text-decoration: none;
@@ -605,6 +812,9 @@ td.views-field.views-field-field-profilbild.views-align-center {
 	margin-bottom: 60px;
     text-align: center;
     padding-top: 85px;
+	font-weight: 700;
+    text-transform: uppercase;
+	color: #004C73;
 }
 
 .panel-pane.pane-block.pane-views-besucher-block {
@@ -642,23 +852,46 @@ td.views-field.views-field-field-profilbild.views-align-center {
 .galleryTitel {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #0828A2;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-.panel-pane.pane-block.pane-views-gallery-block h2 {
-	  padding-top: 80px;
+
+.view.view-gallery-header.view-id-gallery_header.view-display-id-block h2 {
+    padding-top: 100px;
     margin-top: 0px;
-    margin-bottom: 80px;
-    padding-bottom: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    background: url("../images/background/galleryHeader.jpg") 0% 65% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-attachment: scroll;
+}
+
+.panel-pane.pane-block.pane-views-gallery-block h2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 64px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.panel-pane.pane-block.pane-views-gallery-block {
+    background-color: rgba(241, 243, 245, 0.94);
 }
 
 /*----------------------------------------*/

@@ -10,11 +10,36 @@
 		margin-left: 20px;
 	}
 	.cal-viewport {
-    width: 1241px !important;
+    width: 1285px !important;
     margin: 0 auto;
 }
 
 }
+
+@media (max-width: 1200px){
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block .col.col-lg-3 {
+    max-width: 207px;
+    float: left;
+}
+
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block {
+    max-width: 813px;
+    margin: 0 auto;
+}
+
+.portfolioBody {
+    padding-left: 20px;
+    padding-right: 20px;
+	text-align: center;
+}
+.portfolioAnchor {
+    margin-bottom: 35px;
+}
+
+}
+
+
+
 
 @media (max-width: 1333px){
 
@@ -26,23 +51,33 @@
 
 }
 
-@media screen and (max-width: 1006px){
-#footer {
-     height: 420px;
+
+
+@media (max-width: 1123px){
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-attachment_1 h3{
+	margin-top:70px;
+}
+.attachment.attachment-after {
+    margin: 0 auto;
+    max-width: 600px;
+	margin-top:80px;
+}
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 {
+    float: none;
+    margin: 0 auto;
 }
 
-div#rightFooter {
-    margin-left: 20px;
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block h3 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-
-
 }
 
-
-
-
-@media screen and (max-width: 917px){
+@media screen and (max-width: 1013px){
 .gastgeberImage {
     width: 200px;
     float: none;
@@ -54,6 +89,7 @@ div#rightFooter {
     float: none;
     padding-left: 20px;
     padding-right: 20px;
+	margin:0 auto;
 }
 
 .gastgeberTitel {
@@ -63,8 +99,33 @@ div#rightFooter {
 }
 
 
+@media screen and (max-width: 1006px){
+#footer {
+     height: 420px;
+}
+
+div#rightFooter {
+    margin-left: 20px;
+}
+
+}
+
+
 
 @media screen and (max-width: 1000px){
+	.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block .col.col-lg-3 {
+    max-width: 207px;
+    float: left;
+	}
+
+
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block {
+    max-width: 813px;
+    margin: 0 auto;
+}
+
+
+
 .view.view-besucher.view-id-besucher.view-display-id-block {
     margin: 0 auto;
     max-width: 672px;
@@ -73,15 +134,39 @@ div#rightFooter {
 	.cal-viewport {
     width: 640px !important;
     margin: 0 auto;
+
 }
 
 }
-@media (max-width: 770px){
-#bookingrequest {
-    margin-left: 23px !important;
+
+@media (max-width: 831px){
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block {
+    max-width: 399px;
+    margin: 0 auto;
 }
-.panel-pane.pane-block.pane-views-buchungsanfrage-block h2 {
-    width: 253px;
+}
+
+@media (max-width: 770px){
+	
+.homeGalleryViewBody {
+    float: left;
+    margin-top: 40px;
+	margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+	.homeGalleryViewImage {
+    width: 250px;
+	float:none;
+    margin-right: 100px;
+    margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+#bookingrequest {
+    font-size: 26px !important;
+}
 }
 
 .table-responsive {
@@ -128,7 +213,7 @@ button.webform-submit.button-primary.btn.btn-primary.form-submit {
 @media (max-width: 675px){
 
 #footer {
-    height: 550px;
+    height: 620px;
 	}
 
 div#middleFooter {
@@ -139,6 +224,9 @@ margin-left:20px;
 
 
 @media (max-width: 670px){
+	
+
+	
 table.table.table-hover.table-striped {
     width: 280px;
 }
@@ -172,20 +260,36 @@ table.table.table-hover.table-striped {
 }
 
 
-	.homeGalleryViewImage {
-    width: 250px;
-	float:none;
-    margin-right: 100px;
+
+
+}
+@media (max-width: 587px){
+.views-field.views-field-field-ausstattung-icon {
+	float: left; 
+
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block {
+    max-width: 410px;
     margin: 0 auto;
-	margin-bottom: 40px;
-}
-
 }
 
 
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 .col.col-lg-6 {
+    width: 190px;
+	margin: 0 auto;
+}
 
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-2 .col.col-lg-6 {
+    width: 190px;
+	margin: 0 auto;
+}
+
+}
 @media (max-width: 500px){
-	
+
+
+
 	
 
 	.aktivitaetenBody,
@@ -218,6 +322,21 @@ table.table.table-hover.table-striped {
     text-align: center;
 }
 
+.newsBody {
+    padding-top: 0px !important;
+
+}
+
+.views-field.views-field-title.newsTitel {
+    margin-top: 30px;
+	margin-bottom: 0px !important;
+    float: left;
+}
+
+.views-field.views-field-field-news-image{
+  float: none !important; 
+}
+
 	
 	.views-field.views-field-field-aktivitaetenimage {
      width: 250px;
@@ -229,6 +348,19 @@ table.table.table-hover.table-striped {
 
 @media (max-width: 450px){
 
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-3 .col.col-lg-6 {
+    width: 128px;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block div#views-bootstrap-grid-2 .col.col-lg-6 {
+    width: 128px;
+}
+
+.view.view-Home-Ausstattung.view-id-Home_Ausstattung.view-display-id-block {
+    max-width: 285px;
+    margin: 0 auto;
+}
+
 .view.view-preisliste.view-id-preisliste.view-display-id-block.preis .row {
     width: 317px !important;
 }
@@ -238,8 +370,19 @@ table.table.table-hover.table-striped {
 }
 }
 
+@media (max-width: 417px){
+
+.view.view-home-portfolio.view-id-home_portfolio.view-display-id-block {
+    max-width: 177px;
+    margin: 0 auto;
+}
+}
+
+
 
 @media (max-width: 380px){
+
+
 	.view.view-besucher.view-id-besucher.view-display-id-block img {
     width: 270px;
 	}
@@ -252,6 +395,27 @@ table.table.table-hover.table-striped {
 .view.view-Buchungsanfrage.view-id-Buchungsanfrage.view-display-id-block {
     margin-left: 10px !important;
 }
+
+.BegruessungstextBody {
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
+.homeGalleryViewBody {
+    margin-right: 15px;
+}
+.mapBody {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+}
+
+@media (max-width: 320px){
+a.logo.navbar-btn.pull-left img {
+    width: 174px;
+}
+}
 

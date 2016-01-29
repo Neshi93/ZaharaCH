@@ -51,28 +51,21 @@
     padding-top: 50px;
 }
 
-.panel-pane.pane-block.pane-views-location-umgebung-block h2{
-   text-align: center;
-   margin-bottom: 60px;
-  	font-size: 35px;
-	color:white;
+.panel-pane.pane-block.pane-views-4927e87c51eb98f455901587d1f85de0 {
+    background-color: rgba(241, 243, 245, 0.94);
+    padding-top: 1px;
 }
 
-/*.map-responsive{
-    overflow:hidden;
-    min-height: 600px;
-    position:relative;
-    height:0;
-	margin-left: -20px;
-    margin-right: -20px;
+
+.panel-pane.pane-block.pane-views-location-umgebung-block h2{
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 28px;
+	color:white;
+	font-weight: 700;
+    text-transform: uppercase;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:600px;
-    width:2000px;
-    position:absolute;
-}*/
+
 
 
 .map-responsive {
@@ -105,11 +98,65 @@ height: 100%;
 }
 
 .panel-pane.pane-block.pane-views-location-umgebung-block {
-        /* background: rgba(201, 211, 218, 0.56); */
-    background: url("../images/background/bg17.jpg") 0% 0% fixed no-repeat;
+      background-color: rgb(56, 85, 150);
 }
 
 .panel-pane.pane-block.pane-views-location-map-block {
     background: rgba(240, 237, 229, 0.82);
 }
+
+.view.view-location-wie-finden-sie-uns.view-id-location_wie_finden_sie_uns.view-display-id-block {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 30px;
+	padding-left: 5px;
+    padding-right: 20px;
+}
+
+.panel-pane.pane-block.pane-views-4927e87c51eb98f455901587d1f85de0 h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+
+.vmTitel {
+    font-size: 17px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.vmBody {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+
+.view.view-location-header.view-id-location_header.view-display-id-block h2 {
+     padding-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #FFFFFF;
+    background: url("../images/background/locationHeader.jpg") 0% 35% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+	background-attachment: scroll;
+}
+
 

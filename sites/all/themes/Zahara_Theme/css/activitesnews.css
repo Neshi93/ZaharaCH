@@ -34,8 +34,11 @@
 .aktivitaetenTitel,
 .newsTitel{
 	max-width: 678px;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 17px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+	
 }
 .aktivitätenLink,
 .newsLink {
@@ -62,39 +65,148 @@ td.views-field.views-field-field-news-image {
     box-shadow: 2px 2px 6px #020202;
 }
 
-
+.panel-pane.pane-block.pane-views-aktivit-ten-block {
+    background-color: rgba(241, 243, 245, 0.94);
+}
 
 td.views-field.views-field-field-news-url {
     padding-top: 100px;
 }
 
-.panel-pane.pane-block.pane-views-aktivit-ten-block h2 {
-   padding-top: 80px;
+.view.view-aktivitaeten-header.view-id-aktivitaeten_header.view-display-id-block h2 {
+    padding-top: 100px;
     margin-top: 0px;
-    margin-bottom: 80px;
-    padding-bottom: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    background: url("../images/background/activityHeader.jpg") 0% 35% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-attachment: scroll;
 }
-.panel-pane.pane-block.pane-views-news-block h2 {
-    padding-top: 80px;
+
+.panel-pane.pane-block.pane-views-aktivit-ten-block h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 64px;
     margin-top: 0px;
-    margin-bottom: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+}
+
+.panel-pane.pane-block.pane-views-news-block h2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 64px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+
+.view.view-news-header.view-id-news_header.view-display-id-block  h2{
+    padding-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
     font-weight: bold;
     text-align: center;
     border-bottom: 2.5px dotted black;
     color: #FFFFFF;
-    background: url("../images/background/bg8.jpg") 0% 50% no-repeat;
+    background: url("../images/background/newsHeader.jpg") 0% 35% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-attachment: scroll;
+}
+
+
+.panel-pane.pane-block.pane-views-link-block {
+    padding-bottom: 130px;
+    background-color: #F1F3F5;
+    margin-top: -20px;
+}
+
+
+.view.view-Link.view-id-Link.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.view.view-aktivit-ten.view-id-aktivit_ten.view-display-id-block .row {
+    margin-right: 0px;
+}
+
+.views-field.views-field-title.newsTitel {
+    margin-bottom: -30px;
+}
+.panel-pane.pane-block.pane-views-news-block {
+    background-color: rgba(241, 243, 245, 0.94);
+}
+
+.view.view-Patienten.view-id-Patienten.view-display-id-block {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.view.view-patient-header.view-id-patient_header.view-display-id-block h2{
+    padding-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2.5px dotted black;
+    color: #FFFFFF;
+    background: url("../images/background/patientHeader.jpg") 0% 39% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-attachment: scroll;
+}
+
+.panel-pane.pane-block.pane-views-patienten-block h2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 64px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.panel-pane.pane-block.pane-views-patienten-block {
+    background-color: rgba(241, 243, 245, 0.94);
+}
+
+.view.view-Patienten.view-id-Patienten.view-display-id-block th {
+    font-size: 17px;
+    color: #004C73;
+    font-weight: 700;
+    text-transform: uppercase;
 }
