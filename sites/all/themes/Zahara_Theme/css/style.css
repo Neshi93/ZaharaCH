@@ -119,11 +119,11 @@ div#headerCarousel {
     background-size: cover;
 	background-attachment: scroll;*/
 	
-	background-color: #F7EFCC; */
-    padding-bottom: 40px;
-    padding-top: 40px;
+    background-color: #F7EFCC;
+    padding-top: -28px;
+    margin: ;
     margin-bottom: 40px;
-    height: 960px;
+    height: 960px !important;
     background: url("../images/background/startbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -131,23 +131,23 @@ div#headerCarousel {
     background-size: cover;
     /* background-attachment: scroll; */
     display: -moz-flex;
-    display: -webkit-flex;
+    /* display: -webkit-flex; */
     display: -ms-flex;
-    display: flex;
+    /* display: flex; */
     -moz-flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -moz-justify-content: center;
-     -webkit-justify-content: center; 
-    -ms-justify-content: center;
-     justify-content: center; 
-     cursor: default; 
-     height: 100vh; 
-     min-height: 35em; 
-     overflow: hidden; 
-     position: relative; 
-     text-align: center; 
+   /*-moz-justify-content: center;*/
+    /* -webkit-justify-content: center; */
+    /*-ms-justify-content: center;*/
+    /* justify-content: center; */
+    /* cursor: default; */
+    /* height: 100vh; */
+    /* min-height: 35em; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* text-align: center; */
 }
 
 
